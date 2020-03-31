@@ -1,0 +1,12 @@
+ name: deep_learning
+ channels:
+  - anaconda
+  - conda-forge
+  - defaults
+  - pytorch
+ dependencies:
+  - altair 
+  - vega_datasets
+  - python=3.7
+  - numpy
+  - jupyterlab
