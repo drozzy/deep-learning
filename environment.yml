@@ -1,6 +1,7 @@
 name: deep_learning
 channels:
   - conda-forge
+  - pytorch
   - defaults
 dependencies:
   - altair 
@@ -9,3 +10,6 @@ dependencies:
   - numpy
   - jupyterlab
   - h5py
+  - matplotlib
+  - pytorch
+  - torchvision
